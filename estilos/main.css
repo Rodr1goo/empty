@@ -1,0 +1,312 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  background: #ff9100;
+}
+
+.navEmpty {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.navEmpty a {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  font-size: .85rem;
+}
+
+.navEmpty a:hover {
+  color: #000;
+}
+
+.navEmpty a:focus {
+  color: #000;
+}
+
+.blog h5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.blog .card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+p {
+  line-height: 2rem;
+}
+
+p a {
+  color: #0000ff;
+}
+
+p a:hover {
+  color: #fff;
+}
+
+.card__text {
+  letter-spacing: .2rem;
+  font-weight: bold;
+}
+
+.img-articulo {
+  -webkit-filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+          filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+}
+
+.container h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .img_articulo-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 5%;
+  position: relative;
+  -webkit-filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+          filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+}
+
+.noticias {
+  margin: 20px 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.noticias .noticias__1 {
+  width: 95%;
+}
+
+.noticias .noticias__1--2 {
+  margin-top: 50px;
+}
+
+.noticias .noticias__1--3 {
+  margin-top: 90px;
+}
+
+.imagenes-noticias {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tienda {
+  margin-top: 8.3%;
+  text-align: center;
+}
+
+h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 40px;
+  border: 2px solid black;
+  -webkit-box-shadow: 4px 4px #000;
+          box-shadow: 4px 4px #000;
+  border-radius: .5rem;
+}
+
+h2:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.contenedor {
+  width: 20rem;
+  height: 20rem;
+}
+
+.contenedor .carousel-item {
+  width: 700px;
+  height: 700px;
+}
+
+.carousel-inner {
+  width: auto;
+}
+
+.carousel-inner .imgs {
+  margin-left: 10rem;
+}
+
+.carousel-inner .texto {
+  color: #000;
+  margin-left: 10rem;
+}
+
+#contenedor-principal {
+  height: 30rem;
+}
+
+.contact-container {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  background-color: linear-gradient(to right top, #ed4f00, #ff5805, #d15d23);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contact-container .contact {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid black;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+
+.contact-container .contact:hover {
+  background: rgba(255, 255, 255, 0.6);
+  color: #000;
+}
+
+.container {
+  background-color: #fff;
+  background: -webkit-gradient(linear, left top, right bottom, from(rgba(255, 255, 255, 0.7)), to(rgba(255, 255, 255, 0.3)));
+  background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 2rem;
+  line-height: 40px;
+  -webkit-box-shadow: 4px 4px 4px 4px #3333;
+          box-shadow: 4px 4px 4px 4px #3333;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.data {
+  width: 600px;
+  height: 10vh;
+  color: #000;
+  margin: 5px auto;
+}
+
+.data input[type="text"],
+.data input[type="radio"],
+.data input[type="date"],
+.data input[type="checkbox"],
+.data input[type="email"] {
+  color: white;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  border-color: black;
+  outline: none;
+}
+
+.data input[type="text"]:focus,
+.data input[type="date"]:focus,
+.data input[type="email"]:focus {
+  width: 200px;
+  border: 2px solid;
+  border-color: lightblue;
+  -webkit-transition: all 0.75s;
+  transition: all 0.75s;
+}
+
+.data input[type="reset"],
+.data input[type="submit"] {
+  border: 0;
+  background: none;
+  display: inline;
+  margin: 0% 8%;
+  text-align: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 2px solid #000;
+  -webkit-box-shadow: 4px 4px #3333;
+          box-shadow: 4px 4px #3333;
+  padding: 14px 40px;
+  color: white;
+  border-radius: 10px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.data input[type="reset"]:hover,
+.data input[type="submit"]:hover {
+  background: rgba(255, 255, 255, 0.6);
+  color: #000;
+}
+
+.footer {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 1em;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  font-size: .85rem;
+  text-align: center;
+}
+/*# sourceMappingURL=main.css.map */
